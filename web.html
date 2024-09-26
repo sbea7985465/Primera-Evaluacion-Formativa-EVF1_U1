@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+  <title>Pagina premuim :v</title>
+  <link rel="stylesheet" href="/asstes/brodcast/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/asstes/brodcast/js/bootstrap.min.js">
+  <link rel="stylesheet" href="/asstes/CSS/estilos.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <div class="contenedor-cft">
+      <img src="asstes/IMG/logo_cft.jpg" alt="cft">
+    </div>
+
+    <a class="navbar-brand" href="#">Promedio de Notas</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Estudiante<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Actividades</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Materiales
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Ingreso de notas</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Buscar la Carrera" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar la Carrera</button>
+      </form>
+    </div>
+
+
+  </nav>
+
+  <div class="contenedor-portada">
+    <img src="/asstes/IMG/portada.jpeg" class="imagen" alt="portada">
+    <p>Si tienes dudas. Usa nuestro formulario de contacto para realizar las preguntas que necesitas . Recuerda que estamos para ayudarte y ofrecerte una educacion de calidad</p>
+  </div>
+  
+  <div class="container">
+    <h1>Formulario Notas</h1>
+    <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label"></label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre Completo">
+    </div>
+    <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label"></label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Asignatura">
+    </div>
+</div>
+<div class="container">
+    <table class="table">
+        <tbody>
+            <tr>
+                <td class="col-auto">
+                    <label for="n1" class="col-form-label">Unidad 1</label>
+                    <div class="d-flex align-items-center">
+                        <input type="text" class="form-control me-2" id="n1" placeholder="Nota 1">
+                        <span>12%</span>
+                    </div>
+                </td>
+                <td>
+                    <label for="n1" class="col-form-label">Unidad 2</label>
+                    <div class="d-flex align-items-center">
+                        <input type="text" class="form-control me-2" id="n3" placeholder="Nota 3">
+                        <span>12%</span>
+                    </div>
+                </td>
+                <td>
+                    <label for="n1" class="col-form-label">Unidad 3</label>
+                    <div class="d-flex align-items-center">
+                        <input type="text" class="form-control me-2" id="n5" placeholder="Nota 5">
+                        <span>13%</span>
+                    </div>
+                </td>
+            </tr>
+            
+          </tr>
+          <tr>
+            <td class="col-auto">
+
+                <div class="d-flex align-items-center">
+                    <input type="text" class="form-control me-2" id="n2" placeholder="Nota 2">
+                    <span>21%</span>
+                </div>
+            </td>
+            <td>
+                <div class="d-flex align-items-center">
+                    <input type="text" class="form-control me-2" id="n4" placeholder="Nota 4">
+                    <span>21%</span>
+                </div>
+            </td>
+            <td>
+
+                <div class="d-flex align-items-center">
+                    <input type="text" class="form-control me-2" id="n6" placeholder="Nota 6">
+                    <span>21%</span>
+                </div>
+            </td>
+        </tr>
+        <td colspan="3" class="text-center">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </td>
+            
+        
+        </tbody>
+        
+    </table>
+</div>
+
+</body>
+</html>

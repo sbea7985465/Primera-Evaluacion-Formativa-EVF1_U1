@@ -1,0 +1,28 @@
+
+.contenedor-cft img{
+    width: 80px;
+    height: 50px;
+}
+
+.contenedor-portada{
+    text-align: center;
+}
+
+.imagen{
+    width: 65%;
+    height: 40%;
+}
+
+p{
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contenedor-portada{
+    text-align: center;
+}
